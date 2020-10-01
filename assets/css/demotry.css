@@ -650,30 +650,30 @@ banner
 	display: inline-block;
 	color: #fff;
   border-right: 3px solid #ed563b;
-  position: fixed; height: auto; margin: auto;
-  left: 553px;
+  position: relative; height: auto; margin: auto;
+  left: auto;
   font-size: 25px;
 }
 
 @media (max-width: 768px) {
   #text{
-    position: fixed; height: auto; margin: auto;
-    left: 109px;
+    position: relative; height: auto; margin: auto;
+    left: auto;
   }
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1024px)  {
   #text{
-    position: fixed; height: auto; margin: auto;
-    left: 375px;
+    position: relative; height: auto; margin: auto;
+    left: auto;
   }
 
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 1600px)  {
   #text{
-    position: fixed; height: auto; margin: auto;
-    left: 447px;
+    position: relative; height: auto; margin: auto;
+    left: auto;
   }
 
 }
